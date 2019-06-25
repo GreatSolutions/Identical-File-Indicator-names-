@@ -1,0 +1,6 @@
+﻿  ContextCollector.cpp
+  main.cpp
+  Code wird generiert...
+D:\Git\IFI\IFI\source\ContextCollector.cpp(28,10): warning C4477:  "printf": Die Formatzeichenfolge "%i" erfordert ein Argument vom Typ "int", das variadic-Argument "1" weist aber den Typ "std::string" auf.
+D:\Git\IFI\IFI\source\ContextCollector.cpp(28,10): warning C4477: D:\Git\IFI\IFI\source\ContextCollector.cpp(30) : error C4716: "ContextCollector::Collect": Muss einen Wert zurückgeben
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(429,5): error MSB6006: "CL.exe" wurde mit dem Code 2 beendet.
