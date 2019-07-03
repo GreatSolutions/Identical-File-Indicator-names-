@@ -14,10 +14,8 @@ std::unordered_map<Key_Presort, std::vector<std::string>> ContextCollector::Coll
 {
 	adjust_privileges();
 	for (auto& p : fs::recursive_directory_iterator(L"c:\\", fs::directory_options::skip_permission_denied)){
-		auto _FileName = p.path().filename().string();
-		presort_key.name = _FileName;
+		presort_key.name = p.path().filename().string();
 		Collection[presort_key].push_back(p.path().string());
-		/*std::cout << p.path().string() << "\n";*/
 	}
 	return Collection;
 }
